@@ -48,6 +48,40 @@ body {
     background-color: #005ecc;
 }
 
+/* Projekty */
+
+.projects {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.projects h1 {
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.project-card {
+    background: white;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+}
+
+.project-card h2 {
+    color: #0077ff;
+}
+
+.project-card p {
+    color: #666;
+    line-height: 1.5;
 .about {
     max-width: 700px;
     margin: auto;
